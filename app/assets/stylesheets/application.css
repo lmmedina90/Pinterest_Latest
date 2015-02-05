@@ -65,6 +65,30 @@
   width: 500px;
 }
 
+#navbar2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.field {
+  text-align: center;
+  font-family: courier;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.field input {
+  font-family: courier;
+  font-size: 15px;
+  text-align: center;
+  width: 250px;
+}
+
+.actions {
+  text-align: center;
+}
+
 h1 {
   padding: 10px 10px;
   font-size: 40px;
@@ -112,28 +136,4 @@ body {
   background-position: fixed;
   background-size: 1900px;
   padding: 100px;
-}
-
-#navbar2 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-.field {
-  text-align: center;
-  font-family: courier;
-  font-size: 20px;
-  padding: 15px;
-}
-
-.field input {
-  font-family: courier;
-  font-size: 15px;
-  text-align: center;
-  width: 250px;
-}
-
-.actions {
-  text-align: center;
 }
