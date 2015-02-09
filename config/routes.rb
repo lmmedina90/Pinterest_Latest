@@ -6,8 +6,6 @@ Rails.application.routes.draw do
 
   get '/about' => 'static_pages#about'
 
-  get 'teams/make_teams'
-
   root to: 'users#index'
 
   get '/home' => 'users#index'
