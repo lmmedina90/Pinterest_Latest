@@ -14,6 +14,15 @@
  *= require_self
  */
 
+ .image_field {
+    text-align: center;
+ }
+
+ #pin_picture {
+    margin-left: auto;
+    margin-right: auto;
+ }
+
 .submit_link {
   text-align: center;
 }
