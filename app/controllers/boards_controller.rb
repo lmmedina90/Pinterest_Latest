@@ -10,6 +10,16 @@ class BoardsController < ApplicationController
   # GET /boards/1
   # GET /boards/1.json
   def show
+
+    # Code to locate ONE particular instance of the Board class (dynamically)
+
+    @board = Board.find(params[:id])
+
+    # Code to pull all Pins associated with that Board instance
+      # ".each do" loop to pull information (to go in HTML.ERB file)
+
+    @pins = @board.pins
+
   end
 
   # GET /boards/new
