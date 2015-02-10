@@ -19,9 +19,8 @@
     <%= f.label :image %><br>
     <%= f.file_field :picture %>
   </div>
-  <div class="field">
-    <%= f.label :board_id %><br>
-    <%= f.number_field :board_id %>
+   <div class="field">
+    <%= f.collection_select(:board_id, Board.all, :id, :name) %>
   </div>
   <div class="actions">
     <%= f.submit %>
